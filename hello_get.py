@@ -4,10 +4,10 @@
 # filename：test.py
 
 # CGI处理模块
-import cgi, cgitb 
+import cgi, cgitb
 
 # 创建 FieldStorage 的实例化
-form = cgi.FieldStorage() 
+form = cgi.FieldStorage()
 
 # 获取数据
 site_name = form.getvalue('name')
